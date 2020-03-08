@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcfdcc47-a54b-4888-a320-a7bcdae555e6" name="Default Changelist" comment="" />
+    <list default="true" id="bcfdcc47-a54b-4888-a320-a7bcdae555e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/project/JsonDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/project/VatExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/project/Vat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/Vat.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YiKlLPtUgqkhc8kUznBxCW4Q8D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Denis\jsonVat\lib" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -47,6 +69,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="2005" height="211" key="GridCell.Tab.0.bottom" timestamp="1583681216072">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="211" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583681216072" />
+    <state width="2005" height="211" key="GridCell.Tab.0.center" timestamp="1583681216072">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="211" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583681216072" />
+    <state width="2005" height="211" key="GridCell.Tab.0.left" timestamp="1583681216071">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="211" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583681216071" />
+    <state width="2005" height="211" key="GridCell.Tab.0.right" timestamp="1583681216072">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="211" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583681216072" />
     <state x="674" y="206" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583420180311">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

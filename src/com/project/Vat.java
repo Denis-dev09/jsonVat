@@ -9,7 +9,7 @@ public class Vat {
         this.standard = standard;
     }
 
-    public String getName() {
+    public String getCountry() {
         return name;
     }
 
