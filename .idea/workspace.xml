@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcfdcc47-a54b-4888-a320-a7bcdae555e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/project/JsonDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/project/VatExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/project/VatExtractorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/Vat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/Vat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonVat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jsonVat.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +29,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Denis\jsonVat\lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.project.Main" />
       <module name="jsonVat" />
@@ -49,9 +47,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VatExtractorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jsonVat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project" />
+      <option name="MAIN_CLASS_NAME" value="com.project.VatExtractorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VatExtractorTest.testExtractionSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jsonVat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project" />
+      <option name="MAIN_CLASS_NAME" value="com.project.VatExtractorTest" />
+      <option name="METHOD_NAME" value="testExtractionSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VatExtractorTest.testVatStandard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jsonVat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project" />
+      <option name="MAIN_CLASS_NAME" value="com.project.VatExtractorTest" />
+      <option name="METHOD_NAME" value="testVatStandard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.VatExtractorTest" />
+        <item itemvalue="JUnit.VatExtractorTest.testVatStandard" />
+        <item itemvalue="JUnit.VatExtractorTest.testExtractionSize" />
       </list>
     </recent_temporary>
   </component>
@@ -69,22 +117,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2005" height="211" key="GridCell.Tab.0.bottom" timestamp="1583681216072">
+    <state width="2005" height="417" key="GridCell.Tab.0.bottom" timestamp="1583696009802">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="211" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583681216072" />
-    <state width="2005" height="211" key="GridCell.Tab.0.center" timestamp="1583681216072">
+    <state width="2005" height="417" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583696009802" />
+    <state width="2005" height="417" key="GridCell.Tab.0.center" timestamp="1583696009801">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="211" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583681216072" />
-    <state width="2005" height="211" key="GridCell.Tab.0.left" timestamp="1583681216071">
+    <state width="2005" height="417" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583696009801" />
+    <state width="2005" height="417" key="GridCell.Tab.0.left" timestamp="1583696009801">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="211" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583681216071" />
-    <state width="2005" height="211" key="GridCell.Tab.0.right" timestamp="1583681216072">
+    <state width="2005" height="417" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583696009801" />
+    <state width="2005" height="417" key="GridCell.Tab.0.right" timestamp="1583696009801">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="211" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583681216072" />
+    <state width="2005" height="417" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583696009801" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1583695987674">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583695987674" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1583695987673">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583695987673" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1583695987673">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583695987673" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1583695987674">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583695987674" />
     <state x="674" y="206" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583420180311">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
