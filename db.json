@@ -12,6 +12,31 @@
 			"standard":21.0}
 			}
 		]
+		},
+		{"name":"Bulgaria",
+		"code":"BG",
+		"country_code":"BG",
+		"periods":[
+			{
+			"effective_from":"2015-01-01",
+			"rates":{
+			"reduced":9.0,
+			"standard":20.0}
+			}
+		]
+		},
+		{"name":"Finland",
+		"code":"FI",
+		"country_code":"FI",
+		"periods":[
+			{
+			"effective_from":"2012-01-01",
+			"rates":{
+			"super_reduced":10.0,
+			"reduced":14.0,
+			"standard":24.0}
+			}
+		]
 		}
 	]
 }
