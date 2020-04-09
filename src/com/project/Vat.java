@@ -1,19 +1,31 @@
 package com.project;
 
+import java.util.Date;
+
 public class Vat {
-    private String name;
-    private double standard;
+    private String countryName;
+    private double standardRate;
+    private Date effectiveFromDate;
 
-    public Vat(String name, double standard) {
-        this.name = name;
-        this.standard = standard;
+    public Vat(String countryName, double standardRate, Date effectiveFromDate) {
+        this.countryName = countryName;
+        this.standardRate = standardRate;
+        this.effectiveFromDate = effectiveFromDate;
     }
 
-    public String getCountry() {
-        return name;
+    public String getCountryName() {
+        return this.countryName;
     }
 
-    public Double vatStandard() {
-        return standard;
+    public Double getStandardRate() {
+        return this.standardRate;
+    }
+
+    public Date getEffectiveFromDate() {
+        return this.effectiveFromDate;
+    }
+
+    public void printCountryVatDate() {
+        System.out.println("Country: " + this.countryName + " VAT: " + this.standardRate + " Effective from: " + this.effectiveFromDate);
     }
 }
